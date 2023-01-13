@@ -34,7 +34,7 @@ print(r2_score(y_test,y_pred))
 
 import streamlit as st
 
-
+st.title("CAR PRICE PREDICTION")
 km=st.number_input("Enter kilometers driven")
 
 year=st.number_input("Enter year")
